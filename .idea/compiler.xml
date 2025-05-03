@@ -26,7 +26,6 @@
       <module name="configserver" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="user" options="" />
     </option>
   </component>
 </project>

@@ -106,3 +106,17 @@ Each module is implemented as an independent microservice.
 ---
 
 
+---
+## Notes from project learning for future reference:- 
+- Configuration server will not be registered with the eureka server
+- eureka server configuration may or may not be present on the centralized 
+  configuration server in this case it is.
+- for enabling the configuration in the client just add one property
+- for creating a configuration server we just need to add one annotation and 
+  add the git url from where we are pulling the properties
+- add actuator so that we can have a better control of the application 
+  performance side.
+- 
+
+
+---

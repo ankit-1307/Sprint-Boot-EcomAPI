@@ -1,4 +1,4 @@
-package com.product.product_service.productService;
+package com.ecomAPI.order_service.Controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/products")
-public class ProductService {
+@RequestMapping("/api/orders")
+public class OrderController {
 
     @GetMapping("")
-    public ResponseEntity<?> getAllOrders() {
-        return new ResponseEntity<>("getting all orders", HttpStatus.OK);
+    public ResponseEntity<?> getAllOrder() {
+        return new ResponseEntity<>("get all orders", HttpStatus.OK);
     }
 }

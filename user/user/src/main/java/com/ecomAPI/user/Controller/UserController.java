@@ -1,4 +1,4 @@
-package com.ecomAPI.user.userContoller;
+package com.ecomAPI.user.Controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
